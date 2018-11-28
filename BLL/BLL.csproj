@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="BD\cls_BD_BLL.cs" />
     <Compile Include="Cat_Mant\cls_ESTADOS_BLL.cs" />
+    <Compile Include="Cat_Mant\cls_Horarios_BLL.cs" />
     <Compile Include="Cat_Mant\cls_PRODUCTOS_BLL.cs" />
     <Compile Include="Cat_Mant\cls_USUARIOS_BLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

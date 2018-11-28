@@ -79,7 +79,7 @@
             this.MenuVertical.Dock = System.Windows.Forms.DockStyle.Left;
             this.MenuVertical.Location = new System.Drawing.Point(0, 0);
             this.MenuVertical.Name = "MenuVertical";
-            this.MenuVertical.Size = new System.Drawing.Size(250, 640);
+            this.MenuVertical.Size = new System.Drawing.Size(250, 731);
             this.MenuVertical.TabIndex = 0;
             // 
             // label1
@@ -239,6 +239,7 @@
             this.btnHorarios.TabIndex = 6;
             this.btnHorarios.Text = "Horarios";
             this.btnHorarios.UseVisualStyleBackColor = true;
+            this.btnHorarios.Click += new System.EventHandler(this.btnHorarios_Click);
             // 
             // btnEstados
             // 
@@ -401,19 +402,20 @@
             this.PanelVentana.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelVentana.Location = new System.Drawing.Point(250, 50);
             this.PanelVentana.Name = "PanelVentana";
-            this.PanelVentana.Size = new System.Drawing.Size(1050, 590);
+            this.PanelVentana.Size = new System.Drawing.Size(1050, 681);
             this.PanelVentana.TabIndex = 2;
             // 
             // FRM_PRINCIPAL
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1300, 640);
+            this.ClientSize = new System.Drawing.Size(1300, 731);
             this.Controls.Add(this.PanelVentana);
             this.Controls.Add(this.BarraTitulo);
             this.Controls.Add(this.MenuVertical);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FRM_PRINCIPAL";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.FRM_PRINCIPAL_Load);
             this.MenuVertical.ResumeLayout(false);
             this.MenuVertical.PerformLayout();

@@ -88,6 +88,9 @@ namespace UI.Pantallas
             AbrirVentana(new Pantallas.Listar.FRM_Listar_Usuarios());
         }
 
-        
+        private void btnHorarios_Click(object sender, EventArgs e)
+        {
+            AbrirVentana(new Pantallas.Listar.FRM_Listar_Horarios());
+        }
     }
 }
